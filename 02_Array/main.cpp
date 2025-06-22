@@ -7,7 +7,7 @@ int main(){
     for(int i = 0;i < 6;i++) {
         if(arr[i] < smallest_num){
             smallest_num = arr[i];
-            index = i+1;
+            index = i;
         }
     }   
     cout<<"Minimum number in array is "<<smallest_num<<" at index "<<index<<endl;
@@ -17,7 +17,7 @@ int main(){
     for(int i = 0;i < 6;i++) {
         if(arr[i] > maximum_num){
             maximum_num = arr[i];
-            index = i+1;
+            index = i;
         }
     }   
     cout<<"Maximum number in array is "<<maximum_num<<" at index "<<index<<endl;
