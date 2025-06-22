@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-// 
+// Program to reverse the given array
 int main(){
     int arr[7] ={-15, 5, 15, 22, 1,2, 24};
     int start=0,end=6;
