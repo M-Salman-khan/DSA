@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-vector<int>pairSum(vector<int> nums,int target){
+vector<int>pairSum(vector<int> nums,int target){//Big0 (n)
     vector<int> arr;
     int n=nums.size();
     int i=0,j=n-1;
@@ -26,6 +26,10 @@ int main(){
     int target = 26;
     vector<int> arr = pairSum(nums,target);
     cout<<"Index : "<<arr[0]<<" and "<<arr[1]<<endl;
+
+    // normal approach - Time complexity : (n*n)
+
+    
     // for(int i=0;i<arr.size();i++){
     //     for(int j=i+1;j<arr.size();j++){
     //         if(arr[i]+arr[j]==target){
