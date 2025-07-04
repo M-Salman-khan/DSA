@@ -14,3 +14,4 @@ SNo | Problem Name | Logic Used | Link |
 10 | Peak Index in Mountain Array | Binary search for peak element | [view](852_Peak_index_in_Mountain_arr/main.cpp)
 11 | Check if Array is Sorted and Rotated | Count breaks in sorting order | [view](1752_Check_If_Array_is_sorted_and_Rotated/main.cpp)
 12 | Sort an Array of 0s, 1s & 2s | DNF approach and Brute force approach | [view](75_Sort_an_Array_of_0s_1s_&_2s/)
+12 | Merge Sorted Array | Divide the array → Sort → Merge | [view](88_Merge_Sorted_Array/main.cpp)
