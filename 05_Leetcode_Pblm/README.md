@@ -13,3 +13,4 @@ SNo | Problem Name | Logic Used | Link |
 9 | Maximum Product of Three Numbers | Compare product of two smallest and three largest numbers | [view](628_Maximum_Product_of_Three_Numbers/main.cpp)
 10 | Peak Index in Mountain Array | Binary search for peak element | [view](852_Peak_index_in_Mountain_arr/main.cpp)
 11 | Check if Array is Sorted and Rotated | Count breaks in sorting order | [view](1752_Check_If_Array_is_sorted_and_Rotated/main.cpp)
+12 | Merge Sorted Array | Divide the array → Sort → Merge | [view](88_Merge_Sorted_Array/main.cpp)
