@@ -35,4 +35,4 @@ The **Sieve of Eratosthenes** is an efficient algorithm to find all prime number
 
 ### 🔗 Reference Code (C++):
 You can find the full implementation here:  
-[👉 View Code on GitHub](https://github.com/your-username/LC_Questions/blob/main/204_Count_Primes/main.cpp)
+[👉 View Code on GitHub](https://github.com/M-Salman-khan/DSA/blob/master/03_Strings/LC_Questions/204_Count_Primes/main.cpp)
