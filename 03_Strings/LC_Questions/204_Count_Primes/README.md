@@ -8,7 +8,7 @@ Given an integer `n`, return the number of prime numbers that are strictly less 
 
 ---
 
-### Example 1:
+### Example 1: 
 ```text
 Input: n = 10
 Output: 4
