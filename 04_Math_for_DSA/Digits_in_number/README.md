@@ -50,6 +50,16 @@ Count of the digits in a number is 3
 
 ---
 
+## 🧮 Complexity Analysis
+
+| Function         | Time Complexity          | Sapce Complexity    | Why                                   | 
+|------------------|--------------------------|---------------------|---------------------------------------|
+| `getNum()`       | O(log₁₀(n)) or O(d)      |  O(1)               | Divides number by 10 each time        |
+| `isArmstrong()`  | O(log₁₀(n)) or O(d)      |  O(1)               | Same logic: process each digit        |
+| `log10(n)+1`     | O(1)                     |  O(1)               | Built-in math operation               |
+
+
+---
 
 
 ## 📚 Concepts Used
