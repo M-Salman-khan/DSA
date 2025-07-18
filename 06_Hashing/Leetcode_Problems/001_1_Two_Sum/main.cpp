@@ -6,19 +6,13 @@ using namespace std;
 class Solution {
 public:
     vector<int> twoSum(vector<int>& arr, int target) {
-        unordered_map<int, int> m;
-        vector<int> ans;
-        for (int i = 0; i < arr.size(); i++) {
-            int start = arr[i];
-            int second = target - start;
-            if (m.find(second) != m.end()) {
-                ans.push_back(i);
-                ans.push_back(m[second]);
-                break;
-            }
-            m[start] = i;
+        unordered_map<int,int>m;
+        for(int i=0;i<arr.size();i++){
+            int num = arr[i];
+            if(m.find(target-num)!=m.end()) return {i,m[target-num]};
+            m[num]=i;
         }
-        return ans;
+        return {};
     }
 };
 
