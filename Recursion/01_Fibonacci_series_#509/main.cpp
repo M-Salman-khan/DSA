@@ -6,6 +6,6 @@ int fib(int n){
     return fib(n-1)+fib(n-2);
 }
 int main(){
-    cout<<fib(6);
+    cout<<fib(10);
     return 0;
 }
