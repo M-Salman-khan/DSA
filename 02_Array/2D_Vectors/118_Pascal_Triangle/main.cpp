@@ -13,7 +13,7 @@ vector<vector<int>> generate(int numRows) {
         return arr;
     }
 int main(){
-    vector<vector<int>>value = generate(15);
+    vector<vector<int>>value = generate(6);
     for(auto val:value){
         for(int point:val){
             cout<<point<<" ";
