@@ -13,7 +13,7 @@ Here you’ll find clean code, explanations, and a curated collection of classic
 | `01_Bitwise_OP`             | Bitwise operations, tricks & challenges        |
 | `02_Array`                  | Array basics, patterns, and interview Qs       |
 | `03_Vectors`                | C++ vectors—usage and exercises                |
-| `04_Kadane's_Algorithm`     | Kadane’s Algorithm for max subarray sum        |
+| `04_Math_for_DSA`           | Math concepts for DSA & problem-solving        |
 | `05_Leetcode_Pblm`          | Handpicked Leetcode problems & solutions       |
 | `06_PairSum_pblm`           | Pair sum related problems                      |
 | `07_Binary_Search`          | Binary search and its variants                 |
