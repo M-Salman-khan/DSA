@@ -39,10 +39,13 @@ int main() {
             temp->next=newNode;
             temp=newNode;
         }
-        printf("Enter choice: [0 for exit and 1 for continue]");
+        printf("Enter choice: [0 for exit and 1 for continue]: ");
         scanf("%d",&choice);
     }
+    printf("Before reversing: ");
+    display(head);
     reverseList(&head);
+    printf("After reversing: ");
     display(head);
     return 0;
 }
